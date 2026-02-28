@@ -33,6 +33,7 @@ class Comments extends Component {
     console.log('vhgvhv')
     const {name, comment} = this.state
     if (name.trim() === '' || comment.trim() === '') {
+      alert('Enter your name and drow your feedback')
       return
     }
     const randomIndex =
